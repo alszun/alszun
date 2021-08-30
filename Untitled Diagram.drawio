@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-30T10:15:56.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="aJ3EOY189GvbPVGcIZTD" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-30T10:30:27.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="AlY31bJC9vxWykXyk5N0" version="15.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="887" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="887" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,11 +8,11 @@
           <mxGeometry x="130" y="280" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="FDZVWEQqZEQeRhsjGNeZ-6" value="계단, 보도블럭, 자동차만 인식되도록 설정" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="145" y="170" width="150" height="70" as="geometry" />
+          <mxGeometry x="145" y="90" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-6" target="FDZVWEQqZEQeRhsjGNeZ-4">
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-19" target="FDZVWEQqZEQeRhsjGNeZ-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="sourcePoint" />
             <mxPoint x="270" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -39,34 +39,68 @@
         <mxCell id="FDZVWEQqZEQeRhsjGNeZ-13" value="NO" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="300" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-15" value="앱에서 물체가&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="130" y="400" width="180" height="50" as="geometry" />
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-15" value="앱에서 물체가 인식되었다는 정보를 스피커, 밴드로 보냄&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="65" y="400" width="310" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-16" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="480" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-15" target="FDZVWEQqZEQeRhsjGNeZ-16">
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-15" target="FDZVWEQqZEQeRhsjGNeZ-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="500" as="sourcePoint" />
-            <mxPoint x="330" y="530" as="targetPoint" />
+            <mxPoint x="221" y="475" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-18" value="카메라 작동" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FDZVWEQqZEQeRhsjGNeZ-19" value="카메라로 인식되는 정보 앱으로 전달" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="120" y="100" width="200" height="40" as="geometry" />
+          <mxGeometry x="120" y="190" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-18" target="FDZVWEQqZEQeRhsjGNeZ-19">
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FDZVWEQqZEQeRhsjGNeZ-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="364" y="80" as="sourcePoint" />
-            <mxPoint x="414" y="30" as="targetPoint" />
+            <mxPoint x="220" y="70" as="sourcePoint" />
+            <mxPoint x="240" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-19" target="FDZVWEQqZEQeRhsjGNeZ-6">
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-22" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-6" target="FDZVWEQqZEQeRhsjGNeZ-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="360" y="200" as="sourcePoint" />
-            <mxPoint x="410" y="150" as="targetPoint" />
+            <mxPoint x="220" y="170" as="sourcePoint" />
+            <mxPoint x="240" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-23" value="정보를 입력받은 밴드가 진동을 울림" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-24" value="스피커에서 TTS로 사용자에게 정보를 표현" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="480" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-25" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-15" target="FDZVWEQqZEQeRhsjGNeZ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="490" as="sourcePoint" />
+            <mxPoint x="490" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-27" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FDZVWEQqZEQeRhsjGNeZ-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-29" value="카메라 작동" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-34" value="값 초기화" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FDZVWEQqZEQeRhsjGNeZ-35" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="FDZVWEQqZEQeRhsjGNeZ-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="510" as="sourcePoint" />
+            <mxPoint x="680" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="510" />
+              <mxPoint x="680" y="125" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
